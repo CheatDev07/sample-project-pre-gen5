@@ -20,7 +20,7 @@
                         <span
                             class="absolute left-4 top-4 inline-flex items-center px-3 py-1 rounded-full text-xs font-semibold bg-red-500 text-white shadow">6%
                             OFF</span>
-                        <img src="${data?.images[0]}"
+                        <img src="${data?.images[0]?? null}"
                             alt="Plums" class="w-full h-96 object-cover rounded-lg" />
                     </div>
                     <div class="mt-4 flex gap-3 items-center">
